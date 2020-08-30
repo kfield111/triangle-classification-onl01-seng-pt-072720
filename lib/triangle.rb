@@ -18,6 +18,8 @@ class Triangle
       :isosceles
     elsif side_two == side_one || side_three
       :isosceles
+    elsif side_one != side_two || side_three
+      :scalene
     end
   end
 
