@@ -11,7 +11,7 @@ class Triangle
     @side_three = side_three << @@all_sides
   end
 
-# binding.pry
+binding.pry
 
   def kind
     if side_one == side_two && side_three
