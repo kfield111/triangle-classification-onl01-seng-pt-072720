@@ -14,7 +14,7 @@ class Triangle
   def kind
     if side_one == side_two && side_three
       :equilateral
-    elsif side_one == side_two || side_three
+    elsif side_one == side_two || side_three != side_one
       :isosceles
     elsif side_one != side_two || side_three
       :scalene
