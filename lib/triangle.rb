@@ -14,7 +14,7 @@ class Triangle
     @@all_sides << side_three
   end
 
-binding.pry
+# binding.pry
 
   def kind
     if @@all.unique < 1
