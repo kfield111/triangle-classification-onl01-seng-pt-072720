@@ -9,7 +9,7 @@ class Triangle
     @side_one = side_one
     @side_two = side_two
     @side_three = side_three
-    @@all sides << side_one
+    @@all_sides << side_one
     @@all_sides << side_two
     @@all_sides << side_three
   end
