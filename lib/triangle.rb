@@ -17,7 +17,7 @@ class Triangle
 # binding.pry
 
   def kind
-    if @@all_sides.unique.size < 1
+    if @@all_sides.uniq.size < 1
       :equilateral
     end
   end
