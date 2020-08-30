@@ -17,12 +17,8 @@ class Triangle
 binding.pry
 
   def kind
-    if side_one == side_two && side_three
+    if @@all.unique < 1
       :equilateral
-    elsif side_one == side_two
-      :isosceles
-    elsif side_one != side_two || side_three
-      :scalene
     end
   end
 
