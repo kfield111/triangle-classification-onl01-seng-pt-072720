@@ -13,14 +13,15 @@ class Triangle
 # binding.pry
 
   def kind
-    all_sides = [side_one, side_two, side_three]
-    sides = all_sides.unig
-    type = case sides.length
-    when 1 then :equilateral
-    when 2 then :isosceles
-    when 3 then :scalene
+    if (side_one == side_two) && (side_one == side_three) && (side_two == side_three)
+      :equilateral
+    elsif (side_one == side_two) && ((side_one || side_two != side_three)
+      :isosceles
+    elsif (side_one == side_three) && ((side_one || side_three != side_two)
+      :isosceles
+    else
+      :scalene
     end
-    type
   end
 
 end
