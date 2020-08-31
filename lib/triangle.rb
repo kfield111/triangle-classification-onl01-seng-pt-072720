@@ -32,7 +32,7 @@ class Triangle
 
 
   class TriangleError < StandardError
-
+    "This is erroneous."
   end
 
 end
