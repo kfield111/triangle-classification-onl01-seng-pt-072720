@@ -8,7 +8,6 @@ class Triangle
     @side_three = side_three
   end
 
-# binding.pry
 
   def kind
     if (side_one == side_two) && (side_two == side_three)
