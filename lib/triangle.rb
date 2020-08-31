@@ -20,6 +20,7 @@ class Triangle
     when 2 then :isosceles
     when 3 then :scalene
     end
+    type
   end
 
 end
