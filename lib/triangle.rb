@@ -13,11 +13,11 @@ class Triangle
 # binding.pry
 
   def kind
-    if ((side_one == side_two) && (side_one == side_three))
+    if (side_one == side_two) && (side_one == side_three) && (side_two == side_three)
       :equilateral
-    elsif (side_one == side_three || side_two)
+    elsif (side_one == side_two) || (side_one == side_three)
       :isosceles
-    elsif ((side_one != side_three) && ((side_one != side_two) && (side_two != side_three)))
+    elsif 
       :scalene
     end
   end
