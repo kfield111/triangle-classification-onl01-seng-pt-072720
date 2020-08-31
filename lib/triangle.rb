@@ -25,7 +25,7 @@ class Triangle
   end
 
 
-  def TraingleError
+  def TriangleError
 
 
 
